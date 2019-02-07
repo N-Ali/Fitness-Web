@@ -1,0 +1,28 @@
+************************
+***** FITNESS WEB  *****
+************************
+
+** Une bonne architecture doit etre mise en place 
+** exemple : l'article sur la définition musculaire doit être placé dans 
+** articles/musculation/definition_musculaire.php
+
+
+Front End :
+-----------
+
+- Création de la page d'accueil
+- Création de la page concept
+- Création de la page des clubs
+- Création de la page des activités proposées
+- Création d'une page actualité(Nutritions, infos, etc)
+
+
+Back End :
+----------
+
+- Création de l'espace membre
+	- Mise en place du suivit perso (payement effectué, cours selectionnées, emploi du temps en ligne, etc)
+- Création de la classe membre{} ainsi que ces fonctions associées.
+- Mise en place du formulaire d'inscription
+- Mise en place du formulaire de connexion
+- Liaison base de données (phpMyAdmin)

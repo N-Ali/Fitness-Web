@@ -1,0 +1,6 @@
+articles : - Contient les articles 
+images : - Contient les images
+javascript : - Contient les fichiers js
+pages :- Contient les pages
+stylesheets : - Contient les fichiers css
+templates : - Contient les pages php réutilisable
