@@ -1,0 +1,30 @@
+***** GIT TIPS *****
+
+
+Connaitre l'état du dépot : git status
+
+Valider un fichier : git add "monfichier.extension"
+	- * : ajoute tous les fichiers non suivis
+
+Commit : git commit -m "Mon message de commit"
+
+Envoyer les modifs sur le master : git push
+
+Fusionner dans le master : git merge 
+	- git merge nomDeLaBranche : cibler une branche 
+
+Créer une nouvelle branche : git checkout nomDeLaBranche
+	- -b : Créer et basculer tout de suite sur la nouvelle branche
+
+Changer de branche : git branch nomDeLaBranche
+	- -d : Effacer la branche   
+
+Lister les branches : git branch
+	- -v : Visualiser les dernieres modifications
+	- --merged : Voir les branches deja fusionnées
+	- --no-merged : Voir les branches pas encore fusionnées
+	- -D : forcer l'effacement d'une branche
+
+Rapatrier des infos push sur le master sur une branche : git merge master
+
+Lancer l'outil de fusion graphique : git mergetool
