@@ -37,7 +37,7 @@
                                 <li><a href="#">Activités</a></li>
                                 <li><a href="#">Actus</a></li>
                                 <li><a href="#">Fitness App</a></li>
-                                <li class="liste-nav-header-login"><a href="#">S'incrire</a></li>
+                                <li class="liste-nav-header-login"><a href="../../formulaire_contacte.php">S'incrire</a></li>
                                 <li class="liste-nav-header-login"><a href="#">Connexion</a></li>
                                 <li class="liste-nav-header-login"><a href="#">Postuler</a></li>
                             </ul>
