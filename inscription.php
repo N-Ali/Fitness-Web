@@ -12,9 +12,8 @@ catch(Exception $e){
 
 //Insertion des donnnes dans la bdd via une requete SQL//
 
-$reqs = $bdd->prepare('INSERT INTO  membres(Civilite,Nom,Prenom,Telephone,Email,Confirmation,Adresse,Code_posta,Ville) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)');
-$reqs->execute(array($_POST['Civilite'], $_POST['Nom'], $_POST['Prenom'], $_POST['Telephone'], $_POST['Email'], $_POST['Confirmation'], $_POST['Adresse'], $_POST['Code_postal'],$_POST['Ville']));
+$reqs = $bdd->prepare('INSERT INTO  membres(Civilite,Nom,Prenom,Telephone,Email,Confirmation,Mot_de_passe,Confirm_Mot_de_passe,Adresse,Code_postal,Ville) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)');
+$reqs->execute(array($_POST['Civilite'], $_POST['Nom'], $_POST['Prenom'], $_POST['Telephone'], $_POST['Email'], $_POST['Confirmation'], $_POST['Mot_de_passe'], $_POST['Confirm_Mot_de_passe'], $_POST['Adresse'], $_POST['Code_postal'],$_POST['Ville']));
 
-echo $_POST['Civilite'] . ' : '. $_POST['Nom'];
-//header('Location: formulaire_contacte.php');
+header('Location: menu.php');
 ?>
