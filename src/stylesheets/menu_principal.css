@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-fitness-web {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo-fitness-web a {
+    text-decoration: none;
+    font-size: 80px;
+    color: white;
+}
+
+.logo-fitness-web a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-fitness-web a:link{
+    color: white;
+}
+
+.liste-nav-header {
+    text-align: center;
+    font-family: 'Playfair Display', cursive;
+}
+
+.liste-nav-header ul li{
+    text-decoration: none;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.liste-nav-header a:link{
+    color: white;
+}
+
+.liste-nav-header a:visited{
+    color: white;
+}
+
+.liste-nav-header a:hover{
+    color: #fffd82;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.container-fluid {
+    background-color: #3b444b;
+    color: white;
+}
+
+

@@ -3,10 +3,14 @@
     <head>
         <title>Inscription</title>
         <meta charset="utf-8"/>
+        <link type="text/css" rel="stylesheet" href="src/stylesheets/menu_principal.css"/>
 
     </head>
 
     <body>
+
+      <?php include 'src/templates/menu.php' ?>
+
       <div class ="Paragraphe_inscription">
         <h1>Inscription en ligne</h1>
             <p>Rejoignez notre club de sport</p>
@@ -62,6 +66,17 @@
                 <input type="text" name="Confirmation" id="Confirmation">
             </div>
 
+            <!-- creation du champs mdp -->
+            <div class="forme">
+                <label for="Mot_de_passe">Mot de passe</label>
+                <input type="password" name="Mot_de_passe" id="Mot_de_passe">
+            </div>
+
+            <div class="forme">
+                <label for="Confirm_Mot_de_passe">Confirmation du Mot de passe</label>
+                <input type="password" name="Confirm_Mot_de_passe" id="Confirm_Mot_de_passe">
+            </div>
+
             <!--creation du champs adresse-->
             <div class="forme">
                 <label for="Adresse">Adresse</label>
@@ -104,7 +119,6 @@ $req = $bdd->query('SELECT * FROM membres');
 
 /* test pour voir si la bdd fonctionne bien */
 while($data = $req->fetch()){
-  echo $data['Nom'];
 
   $req->closeCursor();
 
