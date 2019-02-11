@@ -10,31 +10,44 @@
     <head>
         <meta charset="utf-8">
         <title>Fitness-Web</title>
-
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link type="text/css" rel="stylesheet" href="../stylesheets/menu_principal.css"/>
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Playfair+Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <!-- BOOTSTRAP CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="container" style="background: red">
-            <div class="row">
-                <div class="col-lg-6 col-md-4 col-sm-6" style="border:1px solid green;">
-                    <h1>Fitness Web</h1>
-                </div>
-                <div class="col-lg-6 col-md-4 col-sm-6" style="border:1px solid yellow;">
-                    <ul>
-                        <li>Concept</li>
-                        <li>Clubs</li>
-                        <li>Activités</li>
-                        <li>Actus</li>
-                        <li>Fitness App</li>
-                    </ul>
+        <div class="main-wrapper">
+            <div class="container-fluid">
+                <div class="container menu-header">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 menu-style logo-fitness-web" >
+                            <h1><a href="#">Fitness Web</a></h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 menu-style liste-nav-header">
+                            <ul class="menu-style">
+                                <li><a href="#">Concept</a></li>
+                                <li><a href="#">Clubs</a></li>
+                                <li><a href="#">Activités</a></li>
+                                <li><a href="#">Actus</a></li>
+                                <li><a href="#">Fitness App</a></li>
+                                <li class="liste-nav-header-login"><a href="#">S'incrire</a></li>
+                                <li class="liste-nav-header-login"><a href="#">Connexion</a></li>
+                                <li class="liste-nav-header-login"><a href="#">Postuler</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
+
     </body>
     <!--
         Il existe deux types de container
